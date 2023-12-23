@@ -3,7 +3,10 @@
     {
       "id": 1,
       "name": "EatroVion",
-      "image": "/public/cabin-001.jpg",
+      "images": {
+        "cover": "eatrovion-cover.png",
+        "img-1": "eatrovion-1.png"
+      },
       "overview": "A System to Chart your memorable restaurants around the world.",
       "liveLink": "",
       "sourceCode": "",
@@ -78,7 +81,11 @@
     {
       "id": 2,
       "name": "The Enterprise Inc.",
-      "image": "/public/cabin-001.jpg",
+      "images": {
+        "cover": "enterprise-1.png",
+        "img-1": "enterprise-2.png",
+        "img-2": "enterprise-cover.png"
+      },
       "overview": "An in-house tool that helps business to manage everything about their recruitment workflow",
       "liveLink": "",
       "sourceCode": "",
@@ -168,7 +175,11 @@
     {
       "id": 3,
       "name": "combineInvoices",
-      "image": "/public/cabin-001.jpg",
+      "images": {
+        "cover": "invoice.png",
+        "img-1": "invoice-2.png",
+        "img-2": "invoice-3.png"
+      },
       "overview": "This business wants an internal application that will be used to track everything about their invoices.",
       "liveLink": "",
       "sourceCode": "",
@@ -235,7 +246,11 @@
     {
       "id": 4,
       "name": "Loyalist JS",
-      "image": "/public/cabin-001.jpg",
+      "images": {
+        "cover": "cabin-cover.png",
+        "img-1": "cabin-2.png",
+        "img-2": "cabin-4.png"
+      },
       "overview": "Inexpensive, healthy and great tasting recipes, without even having to order.",
       "liveLink": "",
       "sourceCode": "",
