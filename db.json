@@ -9,7 +9,7 @@
         "img-2": "enterprise-1.png"
       },
       "overview": "An in-house tool that helps business to manage everything about their recruitment workflow",
-      "liveLink": "the-enterprise-inc.vercel.app",
+      "liveLink": "https://the-enterprise-inc.vercel.app/login",
       "sourceCode": "https://github.com/rajib18197/The-Enterprise-Inc",
       "explanations": {
         "descriptions": [
@@ -104,7 +104,7 @@
         "img-2": "invoice-3.png"
       },
       "overview": "This business wants an internal application that will be used to track everything about their invoices.",
-      "liveLink": "combine-invoices.vercel.app",
+      "liveLink": "https://combine-invoices.vercel.app/login",
       "sourceCode": "https://github.com/rajib18197/combineInvoices",
       "explanations": {
         "descriptions": [
@@ -166,6 +166,7 @@
         ]
       }
     },
+
     {
       "id": 1,
       "name": "EatroVion",
@@ -174,7 +175,7 @@
         "img-1": "eatrovion-1.png"
       },
       "overview": "A System to Chart your memorable restaurants around the world.",
-      "liveLink": "eatro-vion.vercel.app",
+      "liveLink": "https://eatro-vion.vercel.app/",
       "sourceCode": "https://github.com/rajib18197/EatroVion",
       "explanations": {
         "descriptions": [
@@ -254,7 +255,7 @@
         "img-2": "cabin-4.png"
       },
       "overview": "Inexpensive, healthy and great tasting recipes, without even having to order.",
-      "liveLink": "cabin-selling.vercel.app",
+      "liveLink": "https://cabin-selling.vercel.app/",
       "sourceCode": "https://github.com/rajib18197/Cabin-Selling",
       "explanations": {
         "descriptions": [
