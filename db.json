@@ -9,8 +9,8 @@
         "img-2": "enterprise-1.png"
       },
       "overview": "An in-house tool that helps business to manage everything about their recruitment workflow",
-      "liveLink": "",
-      "sourceCode": "",
+      "liveLink": "the-enterprise-inc.vercel.app",
+      "sourceCode": "https://github.com/rajib18197/The-Enterprise-Inc",
       "explanations": {
         "descriptions": [
           "The Enterprise Inc. is A small organization that needs to create an useful internal Application which provide utilities and ensures to manage everything about their recruitment workflow: Job Posts, Candidates Applications, Candidates.",
@@ -104,8 +104,8 @@
         "img-2": "invoice-3.png"
       },
       "overview": "This business wants an internal application that will be used to track everything about their invoices.",
-      "liveLink": "",
-      "sourceCode": "",
+      "liveLink": "combine-invoices.vercel.app",
+      "sourceCode": "https://github.com/rajib18197/combineInvoices",
       "explanations": {
         "descriptions": [
           "The Project combinInvoices is a small centralized place for effortless tracking where company log their invoices. They specialize in offering cutting-edge solutions.",
@@ -174,8 +174,8 @@
         "img-1": "eatrovion-1.png"
       },
       "overview": "A System to Chart your memorable restaurants around the world.",
-      "liveLink": "",
-      "sourceCode": "",
+      "liveLink": "eatro-vion.vercel.app",
+      "sourceCode": "https://github.com/rajib18197/EatroVion",
       "explanations": {
         "descriptions": [
           "An App that blends all of your memorable restaurants with an interactive visual Map which takes the hard work of synchronizing the oddeseys with the notebook away from you",
@@ -254,8 +254,8 @@
         "img-2": "cabin-4.png"
       },
       "overview": "Inexpensive, healthy and great tasting recipes, without even having to order.",
-      "liveLink": "",
-      "sourceCode": "",
+      "liveLink": "cabin-selling.vercel.app",
+      "sourceCode": "https://github.com/rajib18197/Cabin-Selling",
       "explanations": {
         "descriptions": [
           "Loyalist is a minimalist System which sells luxurious wooden cabins that allow customers to book cabins in a simple way. Basically the application represents cabins which are located around the world so that users can choose their perfect palace and confirm their stays. That's literally all it does.",
