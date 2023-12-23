@@ -1,84 +1,6 @@
 {
   "projects": [
     {
-      "id": 1,
-      "name": "EatroVion",
-      "images": {
-        "cover": "eatrovion-cover.png",
-        "img-1": "eatrovion-1.png"
-      },
-      "overview": "A System to Chart your memorable restaurants around the world.",
-      "liveLink": "",
-      "sourceCode": "",
-      "explanations": {
-        "descriptions": [
-          "An App that blends all of your memorable restaurants with an interactive visual Map which takes the hard work of synchronizing the oddeseys with the notebook away from you",
-
-          "It keeps a log all of your oddeseys in no time with the relevant information you want to have with just one click in the map.",
-
-          "The Project was built by React and Supabase with an important pattern used in redux thunk to manage asynchronous state for better reasoning and code structure."
-        ],
-        "techStacks": [
-          "React.@ for building amazing UI with simple mental model",
-          "React Router.@ as standard in react community and for SPA",
-          "Redux Toolkit.@ for managing client state management",
-          "React Leaflet.@ for integrate a Map",
-          "CSS Modules.@ for styling",
-          "Supabase.@ for creating full-fleged backend"
-        ],
-        "requirements": [
-          {
-            "featureName": "Authentication Feature",
-            "features": [
-              "Any User can sign up in this application either with their fullName, email and password",
-              "or their gmail account If they want"
-            ]
-          },
-          {
-            "featureName": "Restaurants List Feature",
-            "features": [
-              "App needs a list view with all the restaurants, showing the name, expenses, visiting date, speciality, experience and rating",
-              "users should be able to do all the CRUD operation (Create, Read, Update, Delete) for restaurants",
-              "App needs to have Client Side Data Operations: filters, sorting so that users are able to refine the list with ease",
-              "display details of an restaurant such as - notes, favourites dishes, a link which bring to the wikipedia and other information that users give when creating a restaurant for trcaking",
-              "users can create their favourites dishes on the details page, give their ratings"
-            ]
-          },
-          {
-            "featureName": "Interactive Map Feature",
-            "features": [
-              "Display the list of all the restaurants location in the world for the better user experience",
-              "when user clicks on restaurant in list then the map will move to restaurant location",
-              "update the task item quantity and also delete the item",
-              "clicks on the map opens up the form with automatically pre-filled the location and country code",
-              "Map also have a option to display coordinates of users current position"
-            ]
-          },
-          {
-            "featureName": "Statistics Feature",
-            "features": [
-              "app has a log of stats to portrayed important information: how many restaurants they have been visited so far, how many of them are absolute masterpiece, total expenses and annual restaurants visits count.",
-              "app has a feature of all the countries they have been visited"
-            ]
-          }
-        ],
-        "challenges": [
-          "Event Deletgation.h. I always try to follow some sort of patterns and architecture when I am building an app because I truely believe A project is never really done as I often need to add new feature or changes something inside and when I don't follow a good image of the code then it becomes too hard and frustrating when I am reading my code and wanted to change something."
-        ],
-        "thoughts": [
-          "Divide the application into multiple of feature categories: auth, dashboard, Job, Application, setting.",
-          "Next up I drill down each of the feature categories, figured out all the features they need",
-          "Take one feature at a time, break up that UI feature into components to separate responsibilities, think about state Management (which type: local/global) and data flow to power up the feature",
-          "Always striving for reusable component whenever need arises as it's one of the core and main advantage of React",
-          "As one of the major goal of this project is to ensure seamless experiece and for that I leverage most of the finest benefits React query offers and inject them with best possible way."
-        ],
-        "learnings": [
-          "Got to know how to create a better loading and error states mechanisms with redux thunk as this can get out of hand pretty quickly if we don't implemented it with well known pattern",
-          "learned how to work with 3rd party map as this oe is very tricky in my opinion"
-        ]
-      }
-    },
-    {
       "id": 2,
       "name": "The Enterprise Inc.",
       "images": {
@@ -172,6 +94,7 @@
         ]
       }
     },
+
     {
       "id": 3,
       "name": "combineInvoices",
@@ -243,6 +166,85 @@
         ]
       }
     },
+    {
+      "id": 1,
+      "name": "EatroVion",
+      "images": {
+        "cover": "eatrovion-cover.png",
+        "img-1": "eatrovion-1.png"
+      },
+      "overview": "A System to Chart your memorable restaurants around the world.",
+      "liveLink": "",
+      "sourceCode": "",
+      "explanations": {
+        "descriptions": [
+          "An App that blends all of your memorable restaurants with an interactive visual Map which takes the hard work of synchronizing the oddeseys with the notebook away from you",
+
+          "It keeps a log all of your oddeseys in no time with the relevant information you want to have with just one click in the map.",
+
+          "The Project was built by React and Supabase with an important pattern used in redux thunk to manage asynchronous state for better reasoning and code structure."
+        ],
+        "techStacks": [
+          "React.@ for building amazing UI with simple mental model",
+          "React Router.@ as standard in react community and for SPA",
+          "Redux Toolkit.@ for managing client state management",
+          "React Leaflet.@ for integrate a Map",
+          "CSS Modules.@ for styling",
+          "Supabase.@ for creating full-fleged backend"
+        ],
+        "requirements": [
+          {
+            "featureName": "Authentication Feature",
+            "features": [
+              "Any User can sign up in this application either with their fullName, email and password",
+              "or their gmail account If they want"
+            ]
+          },
+          {
+            "featureName": "Restaurants List Feature",
+            "features": [
+              "App needs a list view with all the restaurants, showing the name, expenses, visiting date, speciality, experience and rating",
+              "users should be able to do all the CRUD operation (Create, Read, Update, Delete) for restaurants",
+              "App needs to have Client Side Data Operations: filters, sorting so that users are able to refine the list with ease",
+              "display details of an restaurant such as - notes, favourites dishes, a link which bring to the wikipedia and other information that users give when creating a restaurant for trcaking",
+              "users can create their favourites dishes on the details page, give their ratings"
+            ]
+          },
+          {
+            "featureName": "Interactive Map Feature",
+            "features": [
+              "Display the list of all the restaurants location in the world for the better user experience",
+              "when user clicks on restaurant in list then the map will move to restaurant location",
+              "update the task item quantity and also delete the item",
+              "clicks on the map opens up the form with automatically pre-filled the location and country code",
+              "Map also have a option to display coordinates of users current position"
+            ]
+          },
+          {
+            "featureName": "Statistics Feature",
+            "features": [
+              "app has a log of stats to portrayed important information: how many restaurants they have been visited so far, how many of them are absolute masterpiece, total expenses and annual restaurants visits count.",
+              "app has a feature of all the countries they have been visited"
+            ]
+          }
+        ],
+        "challenges": [
+          "Event Deletgation.h. I always try to follow some sort of patterns and architecture when I am building an app because I truely believe A project is never really done as I often need to add new feature or changes something inside and when I don't follow a good image of the code then it becomes too hard and frustrating when I am reading my code and wanted to change something."
+        ],
+        "thoughts": [
+          "Divide the application into multiple of feature categories: auth, dashboard, Job, Application, setting.",
+          "Next up I drill down each of the feature categories, figured out all the features they need",
+          "Take one feature at a time, break up that UI feature into components to separate responsibilities, think about state Management (which type: local/global) and data flow to power up the feature",
+          "Always striving for reusable component whenever need arises as it's one of the core and main advantage of React",
+          "As one of the major goal of this project is to ensure seamless experiece and for that I leverage most of the finest benefits React query offers and inject them with best possible way."
+        ],
+        "learnings": [
+          "Got to know how to create a better loading and error states mechanisms with redux thunk as this can get out of hand pretty quickly if we don't implemented it with well known pattern",
+          "learned how to work with 3rd party map as this oe is very tricky in my opinion"
+        ]
+      }
+    },
+
     {
       "id": 4,
       "name": "Loyalist JS",
