@@ -82,9 +82,9 @@
       "id": 2,
       "name": "The Enterprise Inc.",
       "images": {
-        "cover": "enterprise-1.png",
+        "cover": "enterprise-cover.png",
         "img-1": "enterprise-2.png",
-        "img-2": "enterprise-cover.png"
+        "img-2": "enterprise-1.png"
       },
       "overview": "An in-house tool that helps business to manage everything about their recruitment workflow",
       "liveLink": "",
